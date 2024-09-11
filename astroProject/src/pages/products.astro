@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../Layout/BaseLayout.astro"
 import ProductList from '../helpers/ProductList';
+import Product2Component from "../components/Product2Component.astro";
 
 // Extract product data from the imported array
 const products = ProductList;
@@ -22,6 +23,7 @@ const products = ProductList;
             </div>
           ))}
         </div>
+        <Product2Component/>
         <style>
             <style>
 
