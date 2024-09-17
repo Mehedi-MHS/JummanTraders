@@ -15,7 +15,14 @@ const Products = [
     { id: 14, name: "article 339", url: "/images/products/shoe15.gif", price: 510 },
     { id: 15, name: "article ", url: "/images/products/shoe16.gif", price: 510 },
     { id: 16, name: "article 231", url: "/images/products/shoe17.gif", price: 510 },
-    { id: 17, name: "article 014", url: "/images/products/shoe18.gif", price: 510 }
+    { id: 17, name: "article 014", url: "/images/products/shoe18.gif", price: 510 },
+    { id: 18, name: "article 030", url: "/images/products/shoe19.gif", price: 510 },
+    { id: 19, name: "article 303", url: "/images/products/shoe20.gif", price: 510 },
+    { id: 20, name: "article 124", url: "/images/products/shoe21.gif", price: 510 },
+    { id: 21, name: "article 121", url: "/images/products/shoe22.gif", price: 510 },
+    { id: 22, name: "article 080", url: "/images/products/shoe23.gif", price: 510 },
+    { id: 23, name: "article 200", url: "/images/products/shoe24.gif", price: 510 },
+    { id: 24, name: "article 262", url: "/images/products/shoe25.gif", price: 510 },
   ];
 
 export default Products;
