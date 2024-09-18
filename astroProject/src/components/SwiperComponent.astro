@@ -16,7 +16,7 @@
         <img src="/images/slide3.png"/>
 </div>
     </div>
-  
+  <div class="swiper-pagination"></div>
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
   
@@ -72,6 +72,16 @@
         el: '.swiper-pagination',
         clickable: true,
       },
+      loop:true,
+      navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        speed:400,
+        autoplay:{
+          delay:3000,
+          disableOnInteraction:false
+        },
     });
   });
 </script>
